@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin J Schmidt</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Kevin J Schmidt</h1>
+      <p>Mathematics Student</p>
+    </header>
+
+    <div class="container">
+      <section>
+        <h2>About Me</h2>
+        <p>
+          I am a pure math graduate student interested in spectral graph theory,
+          linear algebra, combinatorics and representation theory.
+        </p>
+        <p>
+          I am currently applying to Ph.D. programs in mathematics for Fall
+          2026.
+        </p>
+        <p>
+          Download my CV:
+          <a href="Kevin Schmidt CV.pdf">Kevin Schmidt CV.pdf</a>
+        </p>
+        <p>
+          Feel free to reach out at
+          <a href="mailto:kevin@schmidtparty.com">kevin@schmidtparty.com</a>
+        </p>
+        <p id="last-updated"></p>
+      </section>
+
+      <section>
+        <h2>Research Interests</h2>
+        <div id="research-content">
+          <p>Loading research interests...</p>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; <span id="last-updated-year"></span> Kevin J Schmidt. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+      loadTex("research_interests.tex", "research-content", "Research Interests");
+    </script>
+  </body>
+</html>

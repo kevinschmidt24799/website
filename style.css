@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+section {
+  background: white;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #667eea;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 0.5rem;
+}
+
+section p {
+  margin-bottom: 1rem;
+}
+
+.math-example {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-left: 4px solid #667eea;
+  margin: 1rem 0;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
